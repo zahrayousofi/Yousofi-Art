@@ -1,0 +1,109 @@
+#header~div>h2, header~h2, #header~h3, header~h3 {
+    background-color: #203a73;
+    color: #eeeeee;
+    padding: 0px;
+    border-radius: 8px;
+  }
+
+header{
+    position:relative;
+    top:-580px;
+    left: 0px
+    border-radius: 0px;
+    background-color:black;
+    background-color:rgba(203, 21, 5, 0.82);
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    width:100%;
+  }
+header+div{
+    margin-top:1px;
+  }
+header2{
+  position:absolute;
+  top:198px;
+  left:180px;
+  background-color:rgba(255,0,0,0.5);
+  border-radius:0px;
+  font-style: bold;
+  font-size: 35px;
+  text-align: center;
+  padding:4px;
+  color:rgba(247, 250, 101, 0.97);
+}
+h2{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/da/Pittura-Painting3.JPG);
+  color:white;
+}
+
+#Intro{
+  color:black;
+  top:300px;
+  right:50;
+}
+
+#navbar{
+  position: absolute;
+  font-size:bold;
+  bottom: 390px;
+  text-align: left;
+  right:81.5%;
+  border-width: 1px;
+  background-color:rgba(250, 244, 50, 0.51);
+  padding: 6px;
+  width:%50%;
+  margin: 10px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#F9E76C;
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: yellow;
+}
+.active{
+  background-color: white;
+}
+
+
+div>blockquote {
+    color:#000000;
+    letter-spacing:1.5px;
+    word-spacing:3px;
+    font-family:"cursive";
+    padding:2em 2em 2em 2em;
+    width:250px;
+    float:left;
+    text-align: left;
+    margin:10px 0px 10px 10px;
+    border-color: #FFD700;
+    border-style: solid;
+
+
+}
+div>blockquote:first-letter {
+    font-size:200%;
+    font-weight: bold;
+
+}
+#footer {
+    text-align: center;
+    text-shadow: 3px 3px 9px #6966DB;
+}
